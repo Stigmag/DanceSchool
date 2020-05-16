@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{866D3B72-7606-422F-8E39-CE7AB204B560}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Dance_school</RootNamespace>
+    <AssemblyName>Dance_school</AssemblyName>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdminForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminForm.Designer.cs">
+      <DependentUpon>AdminForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ButtonsForms\AccountPermission.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ButtonsForms\AccountPermission.Designer.cs">
+      <DependentUpon>AccountPermission.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ButtonsForms\AddAccountToGroup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ButtonsForms\AddAccountToGroup.Designer.cs">
+      <DependentUpon>AddAccountToGroup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ButtonsForms\AddGroup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ButtonsForms\AddGroup.Designer.cs">
+      <DependentUpon>AddGroup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ButtonsForms\Lesson.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ButtonsForms\Lesson.Designer.cs">
+      <DependentUpon>Lesson.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ButtonsForms\AddNewAccount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ButtonsForms\AddNewAccount.Designer.cs">
+      <DependentUpon>AddNewAccount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ButtonsForms\AddNewCourse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ButtonsForms\AddNewCourse.Designer.cs">
+      <DependentUpon>AddNewCourse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ButtonsForms\ChangePrice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ButtonsForms\ChangePrice.Designer.cs">
+      <DependentUpon>ChangePrice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ButtonsForms\ViewAllClients.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ButtonsForms\ViewAllClients.Designer.cs">
+      <DependentUpon>ViewAllClients.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ButtonsForms\ViewAllCoursePrices.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ButtonsForms\ViewAllCoursePrices.Designer.cs">
+      <DependentUpon>ViewAllCoursePrices.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ButtonsForms\ViewAllGroups.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ButtonsForms\ViewAllGroups.Designer.cs">
+      <DependentUpon>ViewAllGroups.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ButtonsForms\ViewAllShedule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ButtonsForms\ViewAllShedule.Designer.cs">
+      <DependentUpon>ViewAllShedule.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ButtonsForms\ListOfHalls.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ButtonsForms\ListOfHalls.Designer.cs">
+      <DependentUpon>ListOfHalls.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Classes\Account.cs" />
+    <Compile Include="Classes\Hall.cs" />
+    <Compile Include="Enums\CustomerStatus.cs" />
+    <Compile Include="Enums\HallStatus.cs" />
+    <Compile Include="Enums\Permission.cs" />
+    <Compile Include="ManagerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManagerForm.Designer.cs">
+      <DependentUpon>ManagerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SignIn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SignIn.Designer.cs">
+      <DependentUpon>SignIn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UserForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserForm.Designer.cs">
+      <DependentUpon>UserForm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AdminForm.resx">
+      <DependentUpon>AdminForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ButtonsForms\AccountPermission.resx">
+      <DependentUpon>AccountPermission.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ButtonsForms\AddAccountToGroup.resx">
+      <DependentUpon>AddAccountToGroup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ButtonsForms\AddGroup.resx">
+      <DependentUpon>AddGroup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ButtonsForms\Lesson.resx">
+      <DependentUpon>Lesson.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ButtonsForms\AddNewAccount.resx">
+      <DependentUpon>AddNewAccount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ButtonsForms\AddNewCourse.resx">
+      <DependentUpon>AddNewCourse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ButtonsForms\ChangePrice.resx">
+      <DependentUpon>ChangePrice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ButtonsForms\ViewAllClients.resx">
+      <DependentUpon>ViewAllClients.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ButtonsForms\ViewAllCoursePrices.resx">
+      <DependentUpon>ViewAllCoursePrices.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ButtonsForms\ViewAllGroups.resx">
+      <DependentUpon>ViewAllGroups.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ButtonsForms\ViewAllShedule.resx">
+      <DependentUpon>ViewAllShedule.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ButtonsForms\ListOfHalls.resx">
+      <DependentUpon>ListOfHalls.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManagerForm.resx">
+      <DependentUpon>ManagerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SignIn.resx">
+      <DependentUpon>SignIn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserForm.resx">
+      <DependentUpon>UserForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\manim.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\dancer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Images\dancer.png" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

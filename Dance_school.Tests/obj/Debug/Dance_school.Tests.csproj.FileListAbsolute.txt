@@ -1,0 +1,36 @@
+D:\Programming\Dance_school\Dance_school.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+D:\Programming\Dance_school\Dance_school.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+D:\Programming\Dance_school\Dance_school.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+D:\Programming\Dance_school\Dance_school.Tests\bin\Debug\Dance_school.Tests.dll
+D:\Programming\Dance_school\Dance_school.Tests\bin\Debug\Dance_school.Tests.pdb
+D:\Programming\Dance_school\Dance_school.Tests\bin\Debug\Dance_school.exe
+D:\Programming\Dance_school\Dance_school.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+D:\Programming\Dance_school\Dance_school.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+D:\Programming\Dance_school\Dance_school.Tests\bin\Debug\Dance_school.pdb
+D:\Programming\Dance_school\Dance_school.Tests\bin\Debug\Dance_school.exe.config
+D:\Programming\Dance_school\Dance_school.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+D:\Programming\Dance_school\Dance_school.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+D:\Programming\Dance_school\Dance_school.Tests\obj\Debug\Dance_school.Tests.csprojAssemblyReference.cache
+D:\Programming\Dance_school\Dance_school.Tests\obj\Debug\Dance_school.Tests.csproj.CoreCompileInputs.cache
+D:\Programming\Dance_school\Dance_school.Tests\obj\Debug\Dance_school.Tests.csproj.CopyComplete
+D:\Programming\Dance_school\Dance_school.Tests\obj\Debug\Dance_school.Tests.dll
+D:\Programming\Dance_school\Dance_school.Tests\obj\Debug\Dance_school.Tests.pdb
+C:\Users\Kate\Desktop\Dance_school ver2.1\Dance_school ver2.0\Dance_school.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Kate\Desktop\Dance_school ver2.1\Dance_school ver2.0\Dance_school.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Kate\Desktop\Dance_school ver2.1\Dance_school ver2.0\Dance_school.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Kate\Desktop\Dance_school ver2.1\Dance_school ver2.0\Dance_school.Tests\bin\Debug\Dance_school.Tests.dll
+C:\Users\Kate\Desktop\Dance_school ver2.1\Dance_school ver2.0\Dance_school.Tests\bin\Debug\Dance_school.Tests.pdb
+C:\Users\Kate\Desktop\Dance_school ver2.1\Dance_school ver2.0\Dance_school.Tests\bin\Debug\Dance_school.exe
+C:\Users\Kate\Desktop\Dance_school ver2.1\Dance_school ver2.0\Dance_school.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\Kate\Desktop\Dance_school ver2.1\Dance_school ver2.0\Dance_school.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\Kate\Desktop\Dance_school ver2.1\Dance_school ver2.0\Dance_school.Tests\bin\Debug\System.Data.Common.dll
+C:\Users\Kate\Desktop\Dance_school ver2.1\Dance_school ver2.0\Dance_school.Tests\bin\Debug\System.Data.SqlClient.dll
+C:\Users\Kate\Desktop\Dance_school ver2.1\Dance_school ver2.0\Dance_school.Tests\bin\Debug\Dance_school.pdb
+C:\Users\Kate\Desktop\Dance_school ver2.1\Dance_school ver2.0\Dance_school.Tests\bin\Debug\Dance_school.exe.config
+C:\Users\Kate\Desktop\Dance_school ver2.1\Dance_school ver2.0\Dance_school.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\Kate\Desktop\Dance_school ver2.1\Dance_school ver2.0\Dance_school.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\Kate\Desktop\Dance_school ver2.1\Dance_school ver2.0\Dance_school.Tests\obj\Debug\Dance_school.Tests.csprojAssemblyReference.cache
+C:\Users\Kate\Desktop\Dance_school ver2.1\Dance_school ver2.0\Dance_school.Tests\obj\Debug\Dance_school.Tests.csproj.CoreCompileInputs.cache
+C:\Users\Kate\Desktop\Dance_school ver2.1\Dance_school ver2.0\Dance_school.Tests\obj\Debug\Dance_school.Tests.csproj.CopyComplete
+C:\Users\Kate\Desktop\Dance_school ver2.1\Dance_school ver2.0\Dance_school.Tests\obj\Debug\Dance_school.Tests.dll
+C:\Users\Kate\Desktop\Dance_school ver2.1\Dance_school ver2.0\Dance_school.Tests\obj\Debug\Dance_school.Tests.pdb
